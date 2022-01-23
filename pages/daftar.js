@@ -23,7 +23,7 @@ const Daftar = () => {
   
     const submitDataPendaftar = async (e) => {
       e.preventDefault()
-      await axios.post('http://localhost:8000/data',{
+      await axios.post('https://ppdb-data.herokuapp.com//data',{
         JalurPendaftaran: jalur,  
         TanggalDaftar: tglDftr,
         Keahlian: keahlian,
